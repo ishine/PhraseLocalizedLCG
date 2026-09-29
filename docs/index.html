@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Audio demo for Phrase-Localized Language-Contrastive Guidance (LCG), a training-free method for localized accent control in code-switching text-to-speech. EMNLP 2026.">
+    <meta name="description" content="Audio demo for Phrase-Localized Language-Contrastive Guidance (LCG), a training-free method for localized accent control in code-switching text-to-speech. EMNLP 2026 Main Conference — Oral Presentation.">
     <title>Phrase-Localized LCG for Code-Switching TTS — Demo</title>
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -73,7 +73,7 @@
                         <sup>4</sup>AIIS, ASRI, INMC, and ISRC, Seoul National University
                     </div>
                     <p class="subtitle is-5" style="color: #b31b1b; margin-top: 16px; font-weight: 600;">
-                        EMNLP 2026 &middot; Main Conference
+                        EMNLP 2026 &middot; Main Conference &middot; Oral Presentation
                     </p>
                     <div class="publication-links" style="margin-top: 16px;">
                         <a href="https://arxiv.org/abs/2609.01016" class="external-link button is-normal is-rounded is-dark">
@@ -113,13 +113,13 @@
     <div class="container is-max-desktop">
         <div class="card" style="border: 2px solid #1a73e8;">
             <header class="card-header" style="background:#e8f0fe;">
-                <p class="card-header-title">⏱ Hear the difference in 10 seconds — cafe pickup call (EN→KO)</p>
+                <p class="card-header-title">Hear the difference — language-learning content (EN→KO)</p>
             </header>
             <div class="card-content">
-                <div class="sentence-context">In a Korean cafe, you will hear <span class="phrase-highlight">주문하신 음료 나왔습니다</span> when your drink is ready.</div>
+                <div class="sentence-context">Today's key expression is <span class="phrase-highlight">시간 내 주셔서 정말 감사합니다</span>, which you can use at the end of a meeting.</div>
                 <table class="table is-fullwidth system-table">
-                    <tr><td>Vanilla</td><td><audio controls preload="none" src="wavs/realworld/cafe_ko/vanilla.wav"></audio></td><td>the phrase comes out as English-accented "Jumunhashin..."</td></tr>
-                    <tr class="ours-row"><td>Ours — LCG</td><td><audio controls preload="none" src="wavs/realworld/cafe_ko/ours.wav"></audio></td><td>the same phrase, spoken like a native Korean barista</td></tr>
+                    <tr><td>Vanilla</td><td><audio controls preload="none" src="wavs/realworld/demo_lang_EK/vanilla.wav"></audio></td><td>Listen to the Korean phrase with the English carrier's language conditioning.</td></tr>
+                    <tr class="ours-row"><td>Ours — LCG</td><td><audio controls preload="none" src="wavs/realworld/demo_lang_EK/ours.wav"></audio></td><td>Compare the same phrase with localized Korean-language guidance.</td></tr>
                 </table>
             </div>
         </div>
@@ -184,8 +184,8 @@
         <p class="has-text-centered" style="font-size:.85em;color:#607d8b;margin:-4px 0 14px;">
   The last tab embeds French and German phrases in English carriers — the training-free
   control covers all five languages of the paper.</p>
-        <div class="tabs is-centered is-boxed" id="rw-tabs"><ul><li class="is-active" data-pane="rw-pane-0"><a>Dining & service <span style="color:#90a4ae;">(5)</span></a></li><li data-pane="rw-pane-1"><a>Transit announcements <span style="color:#90a4ae;">(2)</span></a></li><li data-pane="rw-pane-2"><a>Workplace & phone <span style="color:#90a4ae;">(3)</span></a></li><li data-pane="rw-pane-3"><a>Learning, travel & culture <span style="color:#90a4ae;">(3)</span></a></li><li data-pane="rw-pane-4"><a>Beyond KO/JA 🌍 <span style="color:#90a4ae;">(6)</span></a></li></ul></div>
-<div class="rw-pane" id="rw-pane-0"><div class="columns is-multiline">
+        <div class="tabs is-centered is-boxed" id="rw-tabs"><ul><li class="is-active" data-pane="rw-pane-3"><a>Learning, travel & culture <span style="color:#90a4ae;">(3)</span></a></li><li data-pane="rw-pane-0"><a>Dining & service <span style="color:#90a4ae;">(5)</span></a></li><li data-pane="rw-pane-1"><a>Transit announcements <span style="color:#90a4ae;">(2)</span></a></li><li data-pane="rw-pane-2"><a>Workplace & phone <span style="color:#90a4ae;">(3)</span></a></li><li data-pane="rw-pane-4"><a>Beyond KO/JA 🌍 <span style="color:#90a4ae;">(6)</span></a></li></ul></div>
+<div class="rw-pane" id="rw-pane-0" style="display:none;"><div class="columns is-multiline">
             <div class="column is-half">
               <div class="card" style="height:100%;">
                 <header class="card-header"><p class="card-header-title" style="font-size:.95em;">Cafe pickup call
@@ -325,7 +325,7 @@
                     </table>
                 </div>
               </div>
-            </div></div></div><div class="rw-pane" id="rw-pane-3" style="display:none;"><div class="columns is-multiline">
+            </div></div></div><div class="rw-pane" id="rw-pane-3"><div class="columns is-multiline">
             <div class="column is-half">
               <div class="card" style="height:100%;">
                 <header class="card-header"><p class="card-header-title" style="font-size:.95em;">Language-learning content
@@ -578,7 +578,7 @@
             No human-recorded speech beyond these reference voices is included.
         </p>
         <p style="margin-top: 14px; color: #9e9e9e;">
-            Accepted to EMNLP 2026 (Main Conference) &middot;
+            Accepted to EMNLP 2026 (Main Conference) &middot; Oral Presentation &middot;
             Paper: <a href="https://arxiv.org/abs/2609.01016">arXiv:2609.01016</a> &middot;
             Code and benchmark: <a href="https://github.com/saga1214/PhraseLocalizedLCG">github.com/saga1214/PhraseLocalizedLCG</a>
         </p>

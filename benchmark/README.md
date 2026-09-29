@@ -1,5 +1,8 @@
 # Code-Switching TTS Benchmark
 
+Released with [Phrase-Localized Language-Contrastive Guidance](https://arxiv.org/abs/2609.01016),
+accepted to **EMNLP 2026, Main Conference**, and selected for an **oral presentation**.
+
 `manifest.jsonl` is the 1,200-utterance intra-sentential code-switching corpus
 introduced in the paper. It is a **mixed-language text corpus**: it contains no
 audio. The speech under evaluation is always synthesized by the systems being

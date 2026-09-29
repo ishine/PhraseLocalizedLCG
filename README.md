@@ -3,7 +3,7 @@
 **Training-Free Localized Accent Control for Code-Switching Text-to-Speech**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2609.01016-b31b1b)](https://arxiv.org/abs/2609.01016)
-[![EMNLP](https://img.shields.io/badge/EMNLP%202026-Main%20Conference-b31b1b)](https://2026.emnlp.org/)
+[![EMNLP 2026 — Main Conference · Oral](https://img.shields.io/badge/EMNLP%202026-Main%20Conference%20%C2%B7%20Oral-b31b1b)](https://2026.emnlp.org/)
 [![Demo](https://img.shields.io/badge/🔊-Audio%20Demo-blue)](https://saga1214.github.io/PhraseLocalizedLCG/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](LICENSE)
 
@@ -177,8 +177,8 @@ corpora and follow the terms of their source projects — see
 ## Citation
 
 Paper: [arXiv:2609.01016](https://arxiv.org/abs/2609.01016) (accepted to
-**EMNLP 2026, Main Conference**; the proceedings entry will be added once
-published).
+**EMNLP 2026, Main Conference**, and selected for an **oral presentation**;
+the proceedings entry will be added once published).
 
 ```bibtex
 @misc{lee2026phraselocalizedlanguagecontrastiveguidancetrainingfree,
